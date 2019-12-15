@@ -1,0 +1,159 @@
+.home-page-header-view,
+.view-taxonomy-term,
+.view-related-blogs {
+    padding: 0 10px;
+
+    .column-link {
+        color: $c-black;
+
+        &:hover,
+        &:focus,
+        &:active {
+            color: $c-black;
+        }
+    }
+
+    .image-wrapper {
+        overflow: hidden;
+        cursor: pointer;
+
+        img {
+            transition: all .4s ease-in-out;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    .content-wrapper {
+        margin: 10px 0;
+    }
+
+    .heading-wrapper {
+        color: $c-black;
+
+        &:hover,
+        &:focus,
+        &:active {
+            color: $c-black;
+        }
+    }
+
+    .sub-heading-wrapper {
+        color: $c-black;
+
+        &:hover,
+        &:focus,
+        &:active {
+            color: $c-black;
+        }
+    }
+
+    .sub-heading {
+        font-family: $font-family-poppins;
+        font-size: 1.8rem;
+        margin-bottom: 5px;
+        font-weight: 600;
+        color: $c-black;
+        display: inline-block;
+        width: 100%;
+    }
+
+    h3 {
+        font-size: 2.8rem;
+        margin-bottom: 25px;
+        color: $c-black;
+    }
+
+    .col-md-4 {
+        min-height: 600px;
+
+        @include respond-to('tablet') {
+            min-height: 400px;
+        }
+    }
+
+    .col-md-3 {
+        min-height: 420px;
+
+        @include respond-to('tablet') {
+            min-height: 300px;
+        }
+
+        h3 {
+            font-size: 2.2rem;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .js-pager__items {
+        margin-top: 30px;
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+
+        .button {
+            background: $c-black;
+            color: $c-white;
+            padding: 15px 40px;
+            text-decoration: none;
+            display: inline-block;
+        }
+    }
+}
+
+.view-taxonomy-term {
+    .col-md-3 {
+        min-height: 475px;
+    }
+}
+
+.view-related-blogs {
+    margin: 30px 0;
+    display: inline-block;
+    width: 100%;
+
+    .col-md-3 {
+        min-height: 475px;
+    }
+}
+
+.view-basic-page-header-view {
+    display: inline-block;
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+
+    .content-wrapper {
+        display: inline-block;
+        width: 100%;
+        margin: 40px 0 10px 0;
+
+        h1 {
+            font-size: 4.5rem;
+            margin-bottom: 15px;
+
+            @include respond-to('mobile-large') {
+                font-size: 3.2rem;
+            }
+        }
+
+        .sub-heading {
+            font-family: $font-family-poppins;
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: $c-black;
+        }
+    }
+}
+
+.home-page-header-view {
+    .view-footer {
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        margin: 20px 0;
+    }
+}
