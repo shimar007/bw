@@ -26,7 +26,11 @@
         "drupal/metatag": "^1.10",
         "drupal/paragraphs": "^1.10",
         "drupal/pathauto": "^1.6",
-        "drupal/redirect": "^1.4"
+        "drupal/redirect": "^1.4",
+        "drupal/search_api": "^1.15",
+        "drupal/search_api_boost_priority": "^1.1",
+        "drupal/search_api_sort_priority": "^1.9",
+        "drupal/search_autocomplete": "^1.1"
     },
     "require-dev": {
     },
