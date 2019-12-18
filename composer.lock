@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c08dd5891cc0340bc65aea159b25590e",
+    "content-hash": "583ba7959e51ffe6b02618bb557be3f4",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -704,6 +704,91 @@
             }
         },
         {
+            "name": "drupal/advagg",
+            "version": "4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/advagg.git",
+                "reference": "8.x-4.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/advagg-8.x-4.0.zip",
+                "reference": "8.x-4.0",
+                "shasum": "2987efa3922fd9fc4931cf853de3104092ff236e"
+            },
+            "require": {
+                "drupal/core": "^8.6"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-4.x": "4.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-4.0",
+                    "datestamp": "1560358534",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^9"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Mike Carper (mikeytown2)",
+                    "homepage": "https://www.drupal.org/u/mikeytown2",
+                    "role": "Creator, Maintainer"
+                },
+                {
+                    "name": "Nick Wilde (nickwilde)",
+                    "homepage": "https://www.drupal.org/u/nickwilde",
+                    "email": "design@briarmoon.ca",
+                    "role": "Drupal 8 Port/maintainer"
+                },
+                {
+                    "name": "doublejosh",
+                    "homepage": "https://www.drupal.org/user/199720"
+                },
+                {
+                    "name": "iamcarrico",
+                    "homepage": "https://www.drupal.org/user/1300542"
+                },
+                {
+                    "name": "markcarver",
+                    "homepage": "https://www.drupal.org/user/501638"
+                },
+                {
+                    "name": "mikeytown2",
+                    "homepage": "https://www.drupal.org/user/282446"
+                },
+                {
+                    "name": "rupl",
+                    "homepage": "https://www.drupal.org/user/411999"
+                },
+                {
+                    "name": "thalles",
+                    "homepage": "https://www.drupal.org/user/3589086"
+                }
+            ],
+            "description": "Improved aggregation of CSS/JS files to speed up page load times.",
+            "homepage": "https://drupal.org/project/advagg",
+            "support": {
+                "source": "https://cgit.drupalcode.org/advagg",
+                "issues": "https://drupal.org/project/issues/advagg",
+                "irc": "irc://irc.freenode.org/drupal-contribute"
+            }
+        },
+        {
             "name": "drupal/better_exposed_filters",
             "version": "4.0.0-alpha1",
             "source": {
@@ -765,6 +850,136 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/better_exposed_filters",
                 "issues": "https://www.drupal.org/project/issues/better_exposed_filters"
+            }
+        },
+        {
+            "name": "drupal/config_filter",
+            "version": "1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/config_filter.git",
+                "reference": "8.x-1.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/config_filter-8.x-1.5.zip",
+                "reference": "8.x-1.5",
+                "shasum": "81210684c378dab856b3c2bce5eeaa58992d2efc"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "suggest": {
+                "drupal/config_split": "Split site configuration for different environments."
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.5",
+                    "datestamp": "1572542288",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Fabian Bircher",
+                    "homepage": "https://www.drupal.org/u/bircher",
+                    "email": "opensource@fabianbircher.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Nuvole Web",
+                    "homepage": "http://nuvole.org",
+                    "email": "info@nuvole.org",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "pescetti",
+                    "homepage": "https://www.drupal.org/user/436244"
+                }
+            ],
+            "description": "Config Filter allows other modules to interact with a ConfigStorage through filter plugins.",
+            "homepage": "https://www.drupal.org/project/config_filter",
+            "keywords": [
+                "Drupal",
+                "configuration",
+                "configuration management"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/config_filter",
+                "issues": "https://www.drupal.org/project/issues/config_filter",
+                "irc": "irc://irc.freenode.org/drupal-contribute"
+            }
+        },
+        {
+            "name": "drupal/config_ignore",
+            "version": "2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/config_ignore.git",
+                "reference": "8.x-2.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/config_ignore-8.x-2.2.zip",
+                "reference": "8.x-2.2",
+                "shasum": "18af5772087b90dd4b83c2c6e292d8ea2f8834e0"
+            },
+            "require": {
+                "drupal/config_filter": "1.*",
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-2.2",
+                    "datestamp": "1576528386",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Tommy Lynge Jørgensen",
+                    "homepage": "https://www.drupal.org/u/tlyngej",
+                    "email": "tlyngej@gmail.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Fabian Bircher",
+                    "homepage": "https://www.drupal.org/u/bircher",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "tlyngej",
+                    "homepage": "https://www.drupal.org/user/413139"
+                }
+            ],
+            "description": "Ignore certain configuration during import.",
+            "homepage": "http://drupal.org/project/config_ignore",
+            "support": {
+                "source": "http://cgit.drupalcode.org/config_ignore",
+                "issues": "http://drupal.org/project/config_ignore",
+                "irc": "irc://irc.freenode.org/drupal-contribute"
             }
         },
         {
@@ -1705,6 +1920,53 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/metatag",
                 "issues": "http://drupal.org/project/issues/metatag"
+            }
+        },
+        {
+            "name": "drupal/minifyhtml",
+            "version": "1.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/minifyhtml.git",
+                "reference": "8.x-1.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/minifyhtml-8.x-1.9.zip",
+                "reference": "8.x-1.9",
+                "shasum": "6852e6e52d77c06f51783876a4f4ab38fd1a1fb2"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.9",
+                    "datestamp": "1576075986",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "slydevil",
+                    "homepage": "https://www.drupal.org/user/1846786"
+                }
+            ],
+            "description": "Minify the contents of the Drupal page",
+            "homepage": "https://www.drupal.org/project/minifyhtml",
+            "support": {
+                "source": "https://git.drupalcode.org/project/minifyhtml"
             }
         },
         {
