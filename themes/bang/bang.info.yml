@@ -1,10 +1,10 @@
-name: Biteclub
+name: Bang Website
 type: theme
 base theme: classy
-description: 'Biteclub Website'
+description: 'Bang Website'
 package: Core
 libraries:
-  - biteclub/global-styling
+  - bang/global-styling
 regions:
   header: Header
   primary_menu: 'Primary menu'
